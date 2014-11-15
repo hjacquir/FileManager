@@ -1,0 +1,24 @@
+{
+    "name": "hjacquir/filemanager",
+    "description": "Service wrapper to managing file",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Hatim Jacquir",
+            "email": "jacquirhatim@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "3.*",
+        "symfony/filesystem": "2.6.*",
+        "symfony/finder": "2.6.*",
+        "mikey179/vfsStream": "1.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hj\\": "src/",
+            "Hj\\Tests\\": "tests/"
+        }
+    }
+}
